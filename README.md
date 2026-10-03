@@ -4,7 +4,8 @@ Static website for Dotair Studio, the studio name of DOTAIR LLC.
 
 ## Edit
 
-- Page content: `index.html`
+- Page content: `index.html` (the "Apps" section lists our apps)
+- Loadout Chess support page: `loadoutchess/index.html`, served at `https://dotairstudio.com/loadoutchess/`. Use it as the App Store **Support URL**. The privacy policy and terms it links to are hosted by the app at `chess.dotairstudio.com/privacy` and `/terms`.
 - Layout and colors: `styles.css`
 - Icon: `favicon.svg`
 - Custom domain: `CNAME`

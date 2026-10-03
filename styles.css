@@ -57,3 +57,19 @@ h1 em { font-style:normal; color:#6c9250; }
 @media (max-width:900px) { .hero { grid-template-columns:1fr; }.hero-copy { padding-bottom:5rem; }.hero-art { min-height:480px; }.section-block { grid-template-columns:1fr; gap:0; }.section-content { padding-top:0; }.contact-section { align-items:start; flex-direction:column; } }
 @media (max-width:600px) { .site-header { min-height:78px; padding-block:1rem; }.brand { font-size:1.35rem; }nav { gap:1rem; font-size:.75rem; }nav a:not(.nav-contact) { display:none; }.hero-copy { padding-top:5rem; padding-right:1.5rem; }h1 { font-size:clamp(3.2rem,12vw,4.5rem); }.hero-art { min-height:390px; }.art-core { width:210px; }.section-block { padding-block:5rem; }.section-content .lead { font-size:1.3rem; }.contact-link { white-space:normal; overflow-wrap:anywhere; }.site-footer { flex-direction:column; align-items:flex-start; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+.app-card { padding:2rem; border:1px solid var(--line); border-radius:6px; background:#fbfaf6; }
+.app-card-head { display:flex; align-items:center; gap:1rem; margin-bottom:1.4rem; }
+.app-icon { flex:none; display:grid; place-items:center; width:56px; height:56px; border-radius:14px; background:var(--green); color:#e7efc4; font-size:1.9rem; }
+.app-card h3 { margin:0 0 .25rem; font-size:1.45rem; letter-spacing:-.04em; }
+.section-content .app-meta { margin:0; color:#5f7a52; font-size:.8rem; font-weight:700; letter-spacing:.04em; }
+.app-links { display:flex; flex-wrap:wrap; gap:.6rem 2rem; }
+.app-links .text-link { margin-top:.4rem; }
+.page-section { padding:clamp(4rem,7vw,7rem) clamp(1.5rem,6vw,6.5rem); border-top:1px solid var(--line); }
+.page-section:last-child { border-bottom:1px solid var(--line); }
+.page-section h1 { font-size:clamp(3rem,5vw,5rem); margin-bottom:1.5rem; }
+.page-section h2 { margin-bottom:1.2rem; font-size:clamp(1.8rem,2.6vw,2.5rem); line-height:1.15; font-weight:600; }
+.page-section p, .page-section li { max-width:680px; color:var(--muted); line-height:1.8; }
+.page-section ul { padding-left:1.2rem; }
+.page-section .hero-intro { color:#4e5d56; }
+.back-link { font-size:.88rem; font-weight:600; text-decoration:none; }
+@media (max-width:600px) { .app-card { padding:1.4rem; } }
