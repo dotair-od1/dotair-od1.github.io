@@ -7,6 +7,7 @@ Static website for Dotair Studio, the studio name of DOTAIR LLC.
 - Page content: `index.html` (the "Apps" section lists our apps)
 - Loadout Chess support page: `loadoutchess/index.html`, served at `https://dotairstudio.com/loadoutchess/`. Use it as the App Store **Support URL**. The privacy policy and terms it links to are hosted by the app at `chess.dotairstudio.com/privacy` and `/terms`.
 - Melody Garden pages: support at `melodygarden/index.html` (`https://dotairstudio.com/melodygarden/`, the App Store **Support URL**) and privacy policy at `melodygarden/privacy/index.html` (`https://dotairstudio.com/melodygarden/privacy/`, the **Privacy Policy URL**).
+- Marklens pages: support at `marklens/index.html` (`https://dotairstudio.com/marklens/`, the App Store **Support URL**) and privacy policy at `marklens/privacy/index.html` (`https://dotairstudio.com/marklens/privacy/`, the **Privacy Policy URL**).
 - Layout and colors: `styles.css`
 - Icon: `favicon.svg`
 - Custom domain: `CNAME`
